@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+        }
+        img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>John Doe</h1>
+    <img src="profile.jpg" alt="My Profile Picture">
+
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2 id="bio">Short Bio</h2>
+    <p>Hello! I'm John Doe &amp; I love coding, designing &amp; learning new things. 😊</p>
+
+    <h2 id="education">Academic Background</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>B.Sc. Computer Science</td>
+            <td>XYZ University</td>
+            <td>2024</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>ABC School</td>
+            <td>2020</td>
+        </tr>
+    </table>
+
+    <h2 id="hobbies">Hobbies</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Reading Tech Blogs</li>
+        <li>Photography</li>
+    </ul>
+
+    <h2 id="contact">Contact Me</h2>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label>Name: <input type="text" name="name"></label><br><br>
+        <label>Email: <input type="email" name="email"></label><br><br>
+        <label>Message:<br><textarea name="message" rows="4" cols="30"></textarea></label><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
